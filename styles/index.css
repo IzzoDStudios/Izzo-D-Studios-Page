@@ -1,6 +1,54 @@
+/* My Body */
 body {
-    margin: 0;
     width: 100%;
     min-height: 100vh;
+    margin: 0;
     overflow-x: hidden;
 }
+
+/* Header */
+header {
+    background-color: #16161d; /* The Color You See When You Close Your Eyes :). */
+    width: 90%;
+    height: 4em;
+    border-radius: 0.5em;
+    margin-top: 1em; /* A margin-top to Center the Header. */
+    margin-left: 4em; /* A margin-left to Center the Header. */
+    position: absolute; /* So That the Header is Placed on Whatever is Placed Pehind it. */
+}
+
+.divLogoHeader {
+    width: 7em;
+    height: 4em;
+    margin-bottom: 1em; /* To put the Logo Wherever I Want. */
+    margin-left: 1em; /* The same as before. */
+    position: absolute; /* To Manipulate the List in a Better Way. */
+}
+
+#logoHeader {
+    width: 7em;
+    height: auto;
+}
+
+.divHeader {
+    width: 25em;
+    height: 3em;
+    margin-top: 0.25em;
+    margin-right: 2em;
+    float: right;
+}
+
+#listHeader {
+    list-style-type: none;
+}
+
+.itemHeader {
+    margin-left: 3em;
+    display: inline-flex;
+}
+
+.linkHeader {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/* End Header */
