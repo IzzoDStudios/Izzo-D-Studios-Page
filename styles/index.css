@@ -25,6 +25,9 @@ header:hover{
     .divHeader{
         margin-right: 6.55em;
     }
+    .divLogoHeader{
+        margin-left: 5em;
+    }
 }
 
 .divLogoHeader {
